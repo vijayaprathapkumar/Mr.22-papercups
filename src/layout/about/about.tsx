@@ -50,7 +50,7 @@ const AboutUs = () => {
             maximum uniformity, efficiency, and efficacy.
             <br />
             Our esteemed clients include some of the most household names like
-            Haldiram, Chaayos, Giani's, and Bikanervala, so on and so forth,
+            Haldiram, Chaayos, Gianis, and Bikanervala, so on and so forth,
             Contact us if you wish to enroute your brand for the eco-friendly
             alternative. For more information, scroll our website .
           </StyledLeftPara>

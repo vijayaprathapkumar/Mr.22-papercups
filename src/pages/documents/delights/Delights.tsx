@@ -1,18 +1,18 @@
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Box, Container, Grid } from "@mui/material";
 import React from "react";
-import ReactPlayer from "react-player";
 import { DelightStyle, StyledDiv } from "./Delights.styled";
 
+const DelightsText =
+  " Disposable Delights - Effortless Solutions for Everyday Convenience";
+
 const Delights = () => {
-  const src = "https://www.youtube.com/shorts/NKLnFJ66Dsk";
   return (
     <>
-      <Container sx={{ height: {lg:"394px"}, marginTop: "50px" }}>
+      <Container sx={{ height: { lg: "394px" }, marginTop: "50px" }}>
         <Grid xs={12} sm={6}>
           <Grid container>
             <DelightStyle>
-              "Disposable Delights - Effortless Solutions for Everyday
-              Convenience"
+              {DelightsText}
             </DelightStyle>
             <StyledDiv>
               <Box
@@ -34,7 +34,12 @@ const Delights = () => {
                   marginLeft: { xs: "25px", sm: "70px" },
                 }}
               ></Box>
-              <Box sx={{marginLeft:{xs:"-65px",sm:"0"},marginTop:{xs:"-15px",sm:"0"}}}>
+              <Box
+                sx={{
+                  marginLeft: { xs: "-65px", sm: "0" },
+                  marginTop: { xs: "-15px", sm: "0" },
+                }}
+              >
                 <iframe
                   width="300"
                   height="270px"
