@@ -21,7 +21,6 @@ export const StyledLeftContent = styled('div')`
 `;
 
 export const StyledLeftPara = styled(Typography)`
-  font-family:Playfair Display;
   font-weight:400;
   font-size:14px;
   color: black;
@@ -34,7 +33,6 @@ export const StyledLeftPara = styled(Typography)`
 `;
 
 export const Head = styled(Typography)`
-  font-family:Georgia;
   font-weight:400;
   line-height: 1.2;
   margin-bottom: 10px;

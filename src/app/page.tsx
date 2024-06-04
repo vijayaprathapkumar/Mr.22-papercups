@@ -12,7 +12,7 @@ export default function Home() {
      <DelightsPage />
      <ProductComponent />
      <AboutUsComponent />
-     <ClientPage />
+     {/* <ClientPage /> */}
      <Footer/>
     </main>
   );

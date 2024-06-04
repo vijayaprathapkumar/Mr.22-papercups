@@ -28,7 +28,6 @@ export const ClientContainer = styled('div')`
 
 export const Header = styled(Typography)`
     color: #fff;
-    font-family: Georgia;
     font-weight:40;
     font-size: 34px;
     margin-left:45px;
@@ -82,7 +81,7 @@ export const StyledBox = styled(Box)`
 export const TypographyContent = styled(Typography)`
       color:#fff;
       padding:20px 7px 5px 7px;
-      font-family:Playfair Display;
+      :Playfair Display;
       font-weight:400;
       font-size:16px;
       width:400px;

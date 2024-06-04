@@ -19,7 +19,6 @@ export const ListNavbar = styled("ul") <{ isClick?: boolean }>`
 `;
 
 export const LinkProduct = styled('ul')`
-   font-family:Oswald;
    color:#1f5b36;
    margin-top:40px;
    margin-right: 15px;
@@ -107,7 +106,6 @@ export const StyledTypo = styled(Typography)`
     line-height:45px;
     position:absolute;
     margin-top:200px;
-    font-family:Georgia;
     @media(max-width:600px){
       font-size:47px;
       margin-top:200px;
@@ -128,7 +126,6 @@ export const StyledGraph = styled(Typography)`
     position:absolute;
     margin-top:350px;
     margin-left:45px;
-    font-family:Playfair Display;
     font-weight:400;
     font-size:27px;
     line-height:45px;
@@ -167,7 +164,6 @@ export const ButtonStyle = styled(Button)`
     cursor:pointer;
     color:#fff;
     border-radious:12px;
-    font-family:Playfair Display;
     font-weight:400;
     &:hover{
       background:black;

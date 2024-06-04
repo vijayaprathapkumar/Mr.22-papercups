@@ -2,7 +2,6 @@ import Typography from "@mui/material/Typography";
 import { styled } from "@mui/material/styles";
 
 export const DelightStyle = styled(Typography)`
-    font-family: Playfair Display;
     font-size: 30px;
     width:580px;
     margin-top:150px;

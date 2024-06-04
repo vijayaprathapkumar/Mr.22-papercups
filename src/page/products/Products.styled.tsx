@@ -23,13 +23,11 @@ export const StyledCardContent = styled(CardContent)`
 `
 export const StyledThypography = styled(Typography)`
     text-align:center;
-    font-family:Playfair Display;
     font-weight:400;
     font-size:12px;
 `
 export const ThypographyProduct = styled(Typography)`
     text-align:center;
-    font-family:Playfair Display;
     font-weight:500;
     font-size:16px;
     color:#fff;

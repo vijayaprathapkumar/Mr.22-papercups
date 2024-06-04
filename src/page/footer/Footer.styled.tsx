@@ -31,7 +31,6 @@ export const CustomTypography = styled(Typography)`
     color: #000000;
     font-size: 16px;
     margin-bottom: 9px;
-    font-family: Georia;
     font-weight: 400;
     line-height: 29px;
     margin-bottom: 10px;
